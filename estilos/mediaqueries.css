@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8 / 9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    nav.navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: rgb(251, 207, 126);
+        margin-top: 36em;
+        transform: translateX(170%);
+        transition: all 1s;
+        z-index: 9;
+    }
+
+    .navbar .menu-toggle {
+        transform: translateX(60%) !important;
+    }
+
+    .banner {
+        background-attachment: inherit;
+    }
+
+    .continuacion {
+        margin-top: 6px !important;
+        margin-left: -309px !important;
+        font-size: 20px !important;
+    }
+
+    .ant {
+        font-size: 40px !important;
+        color: white;
+        margin-left: -299px;
+    }
+
+    .contenedor h2 {
+        font-size: 20px;
+        margin-left: -231px;
+        margin-bottom: 3px;
+    }
+
+    .seguridad {
+        font-size: 20px;
+        margin-left: -231px;
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media only screen and (max-width: 512px) {
+    .continuacion {
+        margin-top: 6px !important;
+        margin-left: -47px;
+        font-size: 25px !important;
+    }
+
+    .ant {
+        font-size: 40px !important;
+        color: white;
+        margin-left: -36px;
+    }
+}
+
