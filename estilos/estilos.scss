@@ -1,0 +1,432 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ......................INDEX...................... */
+
+a.inicio {
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+  margin-left: 10px;
+}
+
+a.conocenos {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+a.sg_sst {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+a.normatividad {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+a.covid_19 {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+a.contactenos {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.titulo {
+  color: orange;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.frase {
+  color: orange;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+h5.card-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: orange;
+  margin-left: 37rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p.card-text {
+  margin-left: 15rem;
+  margin-bottom: 40px;
+}
+
+.kit {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* .......................... HEADER ....................*/
+
+.navbar img.logo__ant {
+  width: 70px;
+  grid-column: 2 / 3;
+}
+
+/* .......................... HEADER BANNER ....................*/
+
+.contenedor {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.header__contenido {
+  position: relative;
+  z-index: 100;
+}
+
+.banner {
+  height: 80vh;
+  position: relative;
+  background: url(../images/Worker.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner__description {
+  position: absolute;
+  text-align: center;
+  color: rgb(255, 115, 0);
+  transform: translateX(-50%) translateY(-50%);
+  top: 60%;
+  left: 70%;
+  width: 100%;
+  font-size: 25px !important;
+  margin-top: -80px;
+}
+
+.ant {
+  font-size: 80px !important;
+  color: white;
+}
+
+.continuacion {
+  margin-top: -3px !important;
+}
+
+.contenedor h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(255, 115, 0);
+}
+
+.video {
+  background: rgb(251, 207, 126);
+  padding: 30px;
+}
+
+.video p {
+  text-align: justify;
+}
+
+.video__grid {
+  display: grid;
+  grid-gap: 30px;
+}
+
+.videoyou {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* .......................... HEADER BANNER ....................*/
+
+h5.covid {
+  font-size: 30px;
+  font-weight: 600;
+  color: orange;
+  margin-left: 43rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p.card-texto {
+    margin-left: 22rem;
+    margin-bottom: 40px;
+}
+
+/* .......................CONTACTO .......................... */
+
+.caja-contacto {
+    flex: 2;
+    padding: 30px;
+    background-color: rgb(255, 242, 217);
+    margin: 20px;
+    margin-bottom: 30px;
+    }
+
+   .datos-personales {
+     color: rgb(255, 115, 0);
+     font-weight:bold;
+     width: 20px;
+     height: 20px;
+   }
+
+   .comentario {
+    color: rgb(255, 115, 0);
+    font-weight:bold;
+   }
+
+   .titulo-contacto {
+    color: rgb(255, 115, 0);
+    margin-bottom: 30px;
+    font-weight: 600;
+   }
+
+   legend {
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(255, 115, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  textarea {
+    border: 3px solid;
+    border-color: orange;
+}
+
+.pietabla {
+    color: rgb(255, 115, 0);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*.......................... TABLA .........................*/
+
+table {
+    border: 5px solid;
+    border-color: orange;
+    margin: auto;
+    margin-bottom: 20px;
+   }
+
+  th {
+    background-color: rgb(255, 115, 0);
+    border: 2px solid;
+    text-align: center;
+    font-size: 16px;
+    font-weight:bold;
+    color: white;
+    padding: 10px;
+   }
+
+   tr, td {
+    border: 2px solid;
+    border-color: rgb(255, 115, 0);
+    text-align: justify;
+    background-color: rgb(242, 242, 253);
+   }
+
+  h4 {
+    color: rgb(255, 115, 0);
+  }
+
+  fieldset {
+    border: 5px solid;
+    border-color: orange;
+  }
+
+  legend {
+    font-size: 18px;
+    font-weight: 600;
+    color:rgb(255, 115, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  textarea {
+    border: 3px solid;
+    border-color: orange;
+  }
+
+  .pietabla {
+    color: rgb(255, 115, 0);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .subtitulo {
+    color: rgb(255, 115, 0);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+  }
+
+  .ley {
+    margin-left: 15px;
+    list-style: none;
+  }
+
+   /*....................CONTENIDO INDEX..................*/
+
+   .redireccion {
+    color: rgb(255, 115, 0);
+    text-decoration: none;
+   }
+
+  .kit {
+      margin-left: 20px;
+  }
+
+  /*....................CONÓCENOS..................*/
+
+  h5.mision {
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  margin-top: 30px;
+}
+
+/* .......................... FORMULARIO ....................*/
+
+input[type="submit"] {
+  width: 20%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 28%;
+}
+
+input[type="reset"] {
+  width: 20%;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+/* ............................FOOTER.................... */
+
+.pie-pagina {
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+  }
+
+  .pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+  }
+
+  .pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pie-pagina .grupo-1 .box figure img {
+    width: 150px;
+  }
+
+  .pie-pagina .grupo-1 .box h2 {
+  color: orange;
+  margin-bottom: 25px;
+  font-size: 20px;
+  }
+
+  .pie-pagina .grupo-1 .box p {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: rgb(49, 49, 49);
+  text-align: center;
+  transition: all 300ms ease;
+  }
+
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: orange;
+  }
+
+  .pie-pagina .grupo-2 {
+  background-color: rgb(49, 49, 49) ;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
+  }
+
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+
+  @media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+      }
+  }
