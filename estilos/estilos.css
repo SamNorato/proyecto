@@ -1,12 +1,13 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /* ......................INDEX...................... */
-
 a.inicio {
   text-decoration: none;
   font-size: 20px;
@@ -81,14 +82,14 @@ p.card-text {
 }
 
 /* .......................... HEADER ....................*/
-
 .navbar img.logo__ant {
   width: 70px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
   grid-column: 2 / 3;
 }
 
 /* .......................... HEADER BANNER ....................*/
-
 .contenedor {
   width: 100%;
   margin: auto;
@@ -115,8 +116,9 @@ img {
 .banner__description {
   position: absolute;
   text-align: center;
-  color: rgb(255, 115, 0);
-  transform: translateX(-50%) translateY(-50%);
+  color: #ff7300;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   top: 60%;
   left: 70%;
   width: 100%;
@@ -137,11 +139,11 @@ img {
   font-size: 40px;
   text-align: center;
   margin-bottom: 30px;
-  color: rgb(255, 115, 0);
+  color: #ff7300;
 }
 
 .video {
-  background: rgb(251, 207, 126);
+  background: #fbcf7e;
   padding: 30px;
 }
 
@@ -150,6 +152,7 @@ img {
 }
 
 .video__grid {
+  display: -ms-grid;
   display: grid;
   grid-gap: 30px;
 }
@@ -161,7 +164,6 @@ img {
 }
 
 /* .......................... HEADER BANNER ....................*/
-
 h5.covid {
   font-size: 30px;
   font-weight: 600;
@@ -172,172 +174,174 @@ h5.covid {
 }
 
 p.card-texto {
-    margin-left: 22rem;
-    margin-bottom: 40px;
+  margin-left: 22rem;
+  margin-bottom: 40px;
 }
 
 /* .......................CONTACTO .......................... */
-
 .caja-contacto {
-    flex: 2;
-    padding: 30px;
-    background-color: rgb(255, 242, 217);
-    margin: 20px;
-    margin-bottom: 30px;
-    }
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 30px;
+  background-color: #fff2d9;
+  margin: 20px;
+  margin-bottom: 30px;
+}
 
-   .datos-personales {
-     color: rgb(255, 115, 0);
-     font-weight:bold;
-     width: 20px;
-     height: 20px;
-   }
+.datos-personales {
+  color: #ff7300;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+}
 
-   .comentario {
-    color: rgb(255, 115, 0);
-    font-weight:bold;
-   }
+.comentario {
+  color: #ff7300;
+  font-weight: bold;
+}
 
-   .titulo-contacto {
-    color: rgb(255, 115, 0);
-    margin-bottom: 30px;
-    font-weight: 600;
-   }
+.titulo-contacto {
+  color: #ff7300;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
 
-   legend {
-    font-size: 18px;
-    font-weight: 600;
-    color:rgb(255, 115, 0);
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
+legend {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff7300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
-  textarea {
-    border: 3px solid;
-    border-color: orange;
+textarea {
+  border: 3px solid;
+  border-color: orange;
 }
 
 .pietabla {
-    color: rgb(255, 115, 0);
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 15px;
+  color: #ff7300;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 /*.......................... TABLA .........................*/
-
 table {
-    border: 5px solid;
-    border-color: orange;
-    margin: auto;
-    margin-bottom: 20px;
-   }
+  border: 5px solid;
+  border-color: orange;
+  margin: auto;
+  margin-bottom: 20px;
+}
 
-  th {
-    background-color: rgb(255, 115, 0);
-    border: 2px solid;
-    text-align: center;
-    font-size: 16px;
-    font-weight:bold;
-    color: white;
-    padding: 10px;
-   }
+th {
+  background-color: #ff7300;
+  border: 2px solid;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+}
 
-   tr, td {
-    border: 2px solid;
-    border-color: rgb(255, 115, 0);
-    text-align: justify;
-    background-color: rgb(242, 242, 253);
-   }
+tr, td {
+  border: 2px solid;
+  border-color: #ff7300;
+  text-align: justify;
+  background-color: #f2f2fd;
+}
 
-  h4 {
-    color: rgb(255, 115, 0);
-  }
+h4 {
+  color: #ff7300;
+}
 
-  fieldset {
-    border: 5px solid;
-    border-color: orange;
-  }
+fieldset {
+  border: 5px solid;
+  border-color: orange;
+}
 
-  legend {
-    font-size: 18px;
-    font-weight: 600;
-    color:rgb(255, 115, 0);
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-  }
+legend {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff7300;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
 
-  textarea {
-    border: 3px solid;
-    border-color: orange;
-  }
+textarea {
+  border: 3px solid;
+  border-color: orange;
+}
 
-  .pietabla {
-    color: rgb(255, 115, 0);
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
+.pietabla {
+  color: #ff7300;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
 
-  .subtitulo {
-    color: rgb(255, 115, 0);
-    font-size: 20px;
-    font-weight: 600;
-  }
+.subtitulo {
+  color: #ff7300;
+  font-size: 20px;
+  font-weight: 600;
+}
 
-  ul {
-    list-style-type: square;
-  }
+ul {
+  list-style-type: square;
+}
 
-  ol {
-    list-style-type: lower-latin;
-    list-style-position: inside;
-  }
+ol {
+  list-style-type: lower-latin;
+  list-style-position: inside;
+}
 
-  .ley {
-    margin-left: 15px;
-    list-style: none;
-  }
+.ley {
+  margin-left: 15px;
+  list-style: none;
+}
 
-   /*....................CONTENIDO INDEX..................*/
+/*....................CONTENIDO INDEX..................*/
+.redireccion {
+  color: #ff7300;
+  text-decoration: none;
+}
 
-   .redireccion {
-    color: rgb(255, 115, 0);
-    text-decoration: none;
-   }
+.kit {
+  margin-left: 20px;
+}
 
-  .kit {
-      margin-left: 20px;
-  }
-
-  /*....................CONÓCENOS..................*/
-
-  h5.mision {
-    font-size: 30px;
-    font-weight: 600;
-    color: orange;
-    margin-top: 30px;
-    margin-bottom: 30px;
+/*....................CONÓCENOS..................*/
+h5.mision {
+  font-size: 30px;
+  font-weight: 600;
+  color: orange;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-top: 30px;
 }
 
 /* .......................... FORMULARIO ....................*/
-
 input[type="submit"] {
   width: 20%;
   margin-top: 40px;
@@ -352,49 +356,55 @@ input[type="reset"] {
   margin-bottom: 20px;
 }
 
-
 /* ............................FOOTER.................... */
-
 .pie-pagina {
-    width: 100%;
-    background-color: black;
-    margin-top: 20px;
-  }
+  width: 100%;
+  background-color: black;
+  margin-top: 20px;
+}
 
-  .pie-pagina .grupo-1 {
+.pie-pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
   margin: auto;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)3;
+      grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 45px 0px;
-  }
+}
 
-  .pie-pagina .grupo-1 .box figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-  .pie-pagina .grupo-1 .box figure img {
-    width: 150px;
-  }
+.pie-pagina .grupo-1 .box figure img {
+  width: 150px;
+}
 
-  .pie-pagina .grupo-1 .box h2 {
+.pie-pagina .grupo-1 .box h2 {
   color: orange;
   margin-bottom: 25px;
   font-size: 20px;
-  }
+}
 
-  .pie-pagina .grupo-1 .box p {
-    color: white;
-    margin-bottom: 10px;
-  }
+.pie-pagina .grupo-1 .box p {
+  color: white;
+  margin-bottom: 10px;
+}
 
-  .pie-pagina .grupo-1 .red-social a {
+.pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -402,31 +412,34 @@ input[type="reset"] {
   line-height: 45px;
   color: white;
   margin-right: 10px;
-  background-color: rgb(49, 49, 49);
+  background-color: #313131;
   text-align: center;
+  -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  }
+}
 
-  .pie-pagina .grupo-1 .red-social a:hover {
-    color: orange;
-  }
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: orange;
+}
 
-  .pie-pagina .grupo-2 {
-  background-color: rgb(49, 49, 49) ;
+.pie-pagina .grupo-2 {
+  background-color: #313131;
   padding: 15px 10px;
   text-align: center;
   color: white;
-  }
+}
 
-  .pie-pagina .grupo-2 small{
-    font-size: 15px;
-  }
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
 
-  @media screen and (max-width:800px) {
-    .pie-pagina .grupo-1 {
-      width: 90%;
-      grid-template-columns: repeat(1, 1fr);
-      grid-gap: 30px;
-      padding: 35px 0px;
-      }
+@media screen and (max-width: 800px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    -ms-grid-columns: (1fr)1;
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
   }
+}
+/*# sourceMappingURL=estilos.css.map */
