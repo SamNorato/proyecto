@@ -342,7 +342,7 @@ input[type="reset"] {
   margin: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+  -ms-grid-columns: (1fr)(3);
       grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 45px 0px;
@@ -409,7 +409,7 @@ input[type="reset"] {
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {
     width: 90%;
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr)(1);
         grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
     padding: 35px 0px;
