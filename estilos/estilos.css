@@ -205,6 +205,18 @@ textarea {
   margin-bottom: 15px;
 }
 
+.mt-0 {
+  margin-top: 0!important;
+  text-align: center;
+  color: orange;
+  font-weight: 600;
+}
+
+.intro-contacto p{
+  text-align: center;
+}
+
+
 /*.......................... TABLA .........................*/
 table {
   border: 5px solid;
