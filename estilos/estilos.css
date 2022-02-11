@@ -34,23 +34,8 @@ a.conocenos, a.sg_sst, a.normatividad, a.covid_19, a.contactenos {
   font-size: 30px;
 }
 
-h5.card-title {
-  font-size: 30px;
-  font-weight: 600;
-  color: orange;
-  margin-left: 37rem;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-p.card-text {
-  margin-left: 15rem;
-  margin-bottom: 40px;
-}
-
-.kit {
-  margin-left: 40px;
-  margin-top: 20px;
+h5.preguntas-dolor {
+  text-align: center;
 }
 
 /* .......................... HEADER ....................*/
@@ -140,7 +125,8 @@ img {
   display: block;
 }
 
-/* .......................... HEADER BANNER ....................*/
+/* .......................... COVID-19 ....................*/
+
 h5.covid {
   font-size: 30px;
   font-weight: 600;
@@ -153,6 +139,25 @@ h5.covid {
 p.card-texto {
   margin-left: 22rem;
   margin-bottom: 40px;
+}
+
+h5.card-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: orange;
+  margin-left: 37rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+p.card-text {
+  margin-left: 15rem;
+  margin-bottom: 40px;
+}
+
+.kit {
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 /* .......................CONTACTO .......................... */
