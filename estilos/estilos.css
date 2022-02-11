@@ -449,7 +449,7 @@ button{
   padding: 13px 30px;
   border-radius: 15px;
   border: none;
-  background: rgb(5, 129, 245);
+  background: #ff7300;
   color: white;
 }
 
@@ -457,6 +457,10 @@ button{
   h1{        
       font-size: 16px;        
   }
+}
+
+.texto-error {
+  color:#ff7300;
 }
 
 /*# sourceMappingURL=estilos.css.map */
