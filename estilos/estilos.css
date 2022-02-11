@@ -38,6 +38,12 @@ h5.preguntas-dolor {
   text-align: center;
 }
 
+ul.Preguntas-si {
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* .......................... HEADER ....................*/
 .navbar img.logo__ant {
   width: 70px;
