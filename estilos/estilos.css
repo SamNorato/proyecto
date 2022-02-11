@@ -65,7 +65,8 @@ strong {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-top: 30px;
-  margin-left: 160px;
+  margin-left: 38px;
+  width: 90%;
 }
 /* .......................... HEADER ....................*/
 .navbar img.logo__ant {
