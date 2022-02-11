@@ -321,6 +321,7 @@ h5.mision {
 
 button.btn.btn-primary {
   color: white;
+  font-weight: 600;
   background-color: #ff7300;
   border-color: #ff7300;
 }
