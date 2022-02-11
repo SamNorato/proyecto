@@ -212,10 +212,9 @@ textarea {
   font-weight: 600;
 }
 
-.intro-contacto p{
+p.intro-contacto {
   text-align: center;
 }
-
 
 /*.......................... TABLA .........................*/
 table {
