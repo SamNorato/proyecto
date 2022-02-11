@@ -68,6 +68,11 @@ strong {
   margin-left: 38px;
   width: 90%;
 }
+
+h5.servicios-card-title {
+  color: orange;
+  font-weight: 600;
+}
 /* .......................... HEADER ....................*/
 .navbar img.logo__ant {
   width: 70px;
