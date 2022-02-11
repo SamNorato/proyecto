@@ -67,11 +67,16 @@ strong {
   margin-top: 30px;
   margin-left: 38px;
   width: 90%;
+  margin-bottom: 38px;
 }
 
 h5.servicios-card-title {
   color: orange;
   font-weight: 600;
+}
+
+p.descripcion-card-text-text {
+  margin-bottom: 40px;
 }
 /* .......................... HEADER ....................*/
 .navbar img.logo__ant {
