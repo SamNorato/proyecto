@@ -44,6 +44,10 @@ ul.Preguntas-si {
   margin-bottom: 30px;
 }
 
+strong {
+  font-size: 18px;
+  color: #ff7300;
+
 /* .......................... HEADER ....................*/
 .navbar img.logo__ant {
   width: 70px;
