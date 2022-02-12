@@ -202,7 +202,9 @@ p.card-text {
 
 .lh-base {
   line-height: 1.5!important;
-  margin-left: 20px;
+  margin-left: 74px;
+  width: 90%;
+  text-align: justify;
 } 
 
 /* .......................CONTACTO .......................... */
