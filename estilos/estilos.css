@@ -204,6 +204,11 @@ p.card-text {
   margin-bottom: 40px;
 }
 
+p.card-text-kit {
+  margin-left: 15rem;
+  margin-bottom: 40px; 
+}
+
 .kit {
   margin-left: 40px;
   margin-top: 20px;
