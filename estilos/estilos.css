@@ -262,6 +262,11 @@ p.intro-contacto {
   text-align: center;
 }
 
+/*.......................... SG-SST .........................*/
+p.plataforma {
+  font-weight: 400;
+}
+
 /*.......................... TABLA .........................*/
 table {
   border: 5px solid;
