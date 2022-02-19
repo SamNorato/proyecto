@@ -568,4 +568,11 @@ button{
   color:#ff7300;
 }
 
+/*................Normatividad................*/
+.btn-primary {
+  color: #fff;
+  background-color: orange;
+  border-color: orange;
+}
+
 /*# sourceMappingURL=estilos.css.map */
