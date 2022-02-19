@@ -219,7 +219,7 @@ p.card-text-kit {
 
 .lh-base {
   line-height: 1.5!important;
-  margin-left: 74px;
+  margin: auto;
   width: 90%;
   text-align: justify;
 } 
