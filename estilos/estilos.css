@@ -7,13 +7,6 @@
   font-family: sans-serif;
 }
 
-/* import the necessary Bootstrap files */
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-
-/* finally, import Bootstrap */
-@import "bootstrap";
-
 /* ......................INDEX...................... */
 a.inicio {
   text-decoration: none;
@@ -23,7 +16,6 @@ a.inicio {
 }
 
 a.conocenos, a.sg_sst, a.normatividad, a.covid_19, a.contactenos {
-  color: black;
   text-decoration: none;
   font-size: 18px;
   margin-left: 10px;
