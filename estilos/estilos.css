@@ -221,7 +221,8 @@ p.card-text-kit {
   line-height: 1.5!important;
   margin: auto;
   width: 90%;
-  text-align: justify;
+  text-align: center;
+  margin-bottom: 20px;
 } 
 
 /* .......................CONTACTO .......................... */
